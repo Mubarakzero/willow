@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background: #e9d4d4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    overflow: hidden;
+}
+.container{
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.container .body .col{
+    display: flex;
+}
+.container .body .col .r1 .header{
+    display: flex;
+    align-items: center;
+}
+.container .body .col .r1 .header p{
+    text-transform: capitalize;
+}
+.container .body .col .r1 .header a{
+    text-decoration: none;
+    color: #494242;
+}
+.container .body .col .r1 .header .line{
+    height: 20px;
+    width: 1px;
+    background: #0c490c;
+    margin: 0 55px;
+}
+.container .body .col .row{
+    flex-basis: 50%;
+}
+.container .body .col .r2{
+    margin-left: 50px;
+}
+.container .body .col .row .logo{
+    height: 60px;
+    width: 60px;
+}
+.container .body .col .row .intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translate(25%, 25%);
+    margin: 0 50px;
+}
+.container .body .col .row .intro p{
+    margin: 15px 0;
+}
+.container .body .col .row .intro .welcome{
+    transform: translateX(-70px);
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.container .body .col .row .intro h1{
+    font-size: 50px;
+}
+.container .body .col .row .intro a{
+    text-decoration: none;
+    text-transform: capitalize;
+    background: #0c490c;
+    color: #fff;
+    height: 40px;
+    width: fit-content;
+    transform: translateX(-90px);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.container .body .col .row .intro a .right{
+    width: 0;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    transition: .5s ease;
+    overflow: hidden;
+}
+.container .body .col .row .intro a:hover .right{
+    width: 30px;
+}
+.container .body .col .r2 nav ul {
+    display: flex;
+    margin: 0 80px;
+}
+.container .body .col .r2{
+    background-image: url(images\ \(1\).jpeg);
+    width: 10px;
+    padding-bottom: 450px;
+    margin: 20px 100px;
+    background-position: center;
+    background-size: cover;
+    transform: translateX(100px);
+}
+.container .body .col .r2 nav ul li{
+    list-style: none;
+    margin: 20px 10px;
+}
+.container .body .col .r2 nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    transition: .5s ease;
+}
+.container .body .col .r2 nav ul li:hover{
+    transform: translateY(-10px);
+}
+.container .body .col span{
+    height: 40px;
+    width: 40px;
+    display: block;
+}
+.container .body .col .top_right{
+    position: absolute;
+    width: 140px;
+    height: 250px;
+    background: #0c490c;
+    border-radius: 3px;
+    overflow: hidden;
+    transform: translate(370px, -60px);
+}
+.container .body .col .left_bottom{
+    width: 180px;
+    height: 80px;
+    background: #fff;
+    box-shadow: 0 0 5px 0.5px #000;
+    text-align: right;
+    border-radius: 3px;
+    transform: translate(-100px, 400px);
+}
+.container .body .col .top_right .text{
+    transform: translate( 10px, 140px);
+}
+.container .body .col .top_right .text p{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.container .body .col .top_right .text a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+}
+.container .body .col .left_bottom .circle{
+    background: #000;
+    height: 20px;
+    width: 20px;border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    box-shadow: 0px 0px 5px 5px #000;
+}
+.container .body .col .left_bottom h2{
+    margin: 10px 30px 0 0;
+}
+.container .body .col .left_bottom p{
+    margin: 2px 6px 0 0;
+    text-transform: capitalize;
+}
+.container .body .col .top_right .text a .right{
+    width: 30px;
+    transform: translateY(10px);
+    margin-left: 10px;
+    transition: .5s ease;
+}
+.container .body .col .top_right .text a:hover .right{
+    margin-left: 20px;
+} 
